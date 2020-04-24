@@ -1,5 +1,5 @@
 class AddPostsToUser < ActiveRecord::Migration[6.0]
   def change
-    add_column :posts, :user_id, :integer
+    add_reference :posts, :user, polymorphic: true
   end
 end
