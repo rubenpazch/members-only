@@ -21,6 +21,14 @@ Gems to install
 
 - Gem Devise 
 
+## Install instructions
+
+For running the project please run the next command on your console
+
+```
+bundle install
+```
+
 ## Instructions to run the project
 
 + Open terminal on your workspace with 
