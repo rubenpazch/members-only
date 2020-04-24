@@ -13,13 +13,13 @@
 </p>
 <% end %>
 
-<h1>Posts</h1>
+<h1>Secret message</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Body</th>
+      <th>Post Title</th>
+      <th>Content</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -27,8 +27,8 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.title %></td>
-        <td><%= post.body %></td>
+        <td><%= post.title  %></td>
+        <td><%= post.body  %></td>
         <td><%= link_to 'Show', post %></td>
         <% if user_signed_in? %>
         <td><%= post.user.username %></td>
