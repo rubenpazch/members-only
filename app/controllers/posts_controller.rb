@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :authenticate_user!, only: %i[edit update destroy]
+  before_action :authenticate_user!, only: %i[new create]
   before_action :set_post, only: %i[show]
   # GET /posts
   # GET /posts.json
@@ -13,16 +13,12 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
-    if user_signed_in?
-      @post = current_user.posts.build
-    else 
-      root to: 'posts#index'
-    end
+    @post = current_user.posts.build
   end
 
   # GET /posts/1/edit
   def edit
-    @post  = Post.find(params[:id])
+    @post = Post.find(params[:id])
   end
 
   # POST /posts
