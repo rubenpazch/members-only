@@ -1,15 +1,12 @@
 # Project 2: Members Only
 
 ## Project specifications
-
-In this project, you’ll be building an exclusive clubhouse where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
+In this project, we build an exclusive clubhouse where members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
 ## Built With
-
-Concepts used on this project
-
 - Ruby
-- Rails
+- Ruby on Rails
+- Devise
 
 Tools used on this project
 
@@ -19,7 +16,7 @@ Tools used on this project
 
 Gems to install
 
-- Gem Devise 
+- Gem Devise
 
 ## Install instructions
 
@@ -31,31 +28,30 @@ bundle install
 
 ## Instructions to run the project
 
-+ Open terminal on your workspace with 
++ Open terminal on your workspace with
 ```
 cd /home/project/..
 ```
 + Cloning the project input the next code:
 ```
-git clone git@github.com:rubenpazch/Micro-Reddit.git
+git clone git@github.com:rubenpazch/members-only.git
 ```
 + Navigate to the folder of the project
 ```
 cd /members-only/
 ```
-Open de console for rails
+Migrate the database
 ```
-rails console
+rails db:migrate
+```
+Run the server
+```
+rails server
 ```
 
 ## Screenshot
 
-![image](./app_screenshot.png)
-
-## Live Demo
-
-You can see the [live preview](#)
-
+![image](https://i.imgur.com/z1ftcdy.png)
 
 ## Authors
 
@@ -74,7 +70,7 @@ You can see the [live preview](#)
 
 ## Contributing
 
-This is an education project as a part of the Microverse so contributing is not accepted. 
+This is an education project as a part of the Microverse so contributing is not accepted.
 
 Contributions, issues and feature requests are welcome!
 
