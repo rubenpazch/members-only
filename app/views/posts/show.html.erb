@@ -9,5 +9,13 @@
   <%= @post.body %>
 </p>
 
+<% if user_signed_in? %>
+<p>
+  <strong>Username:</strong>
+  <%= @post.user.username %>
+</p>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
+<% end %>
+
 <%= link_to 'Back', posts_path %>

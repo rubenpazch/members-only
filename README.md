@@ -41,7 +41,7 @@ git clone git@github.com:rubenpazch/Micro-Reddit.git
 ```
 + Navigate to the folder of the project
 ```
-cd /Micro-Reddit/
+cd /members-only/
 ```
 Open de console for rails
 ```
