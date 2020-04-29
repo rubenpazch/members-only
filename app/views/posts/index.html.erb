@@ -1,0 +1,31 @@
+
+
+<h1>Secret message</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Post Title</th>
+      <th>Content</th>
+      <% if user_signed_in? %>
+      <th>Author</th>
+      <% end %>
+      
+      
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title  %></td>
+        <td><%= post.body  %></td>        
+        <% if user_signed_in? %>
+        <td><%= post.user.username %></td>     
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

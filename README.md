@@ -1,75 +1,90 @@
-# Project Name
+# Project 2: Members Only
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+## Project specifications
+In this project, we build an exclusive clubhouse where members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
 ## Built With
+- Ruby
+- Ruby on Rails
+- Devise
 
-- Major languages,
-- frameworks,
-- technologies used
-- development
+Tools used on this project
 
-## Live Demo
+- Visual Studio Code
+- VSCode Ruby by Stafford Brunk
+- Rubocop for Visual Studio Code
 
-[Live Demo Link](https://livedemo.com)
+Gems to install
 
+- Gem Devise
 
-## Getting Started
+## Install instructions
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+For running the project please run the next command on your console
 
+```
+bundle install
+```
 
-To get a local copy up and running follow these simple example steps.
+## Instructions to run the project
 
-### Prerequisites
++ Open terminal on your workspace with
+```
+cd /home/project/..
+```
++ Cloning the project input the next code:
+```
+git clone git@github.com:rubenpazch/members-only.git
+```
++ Navigate to the folder of the project
+```
+cd /members-only/
+```
+Migrate the database
+```
+rails db:migrate
+```
+Run the server
+```
+rails server
+```
 
-### Setup
+## Screenshot
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+![image](https://i.imgur.com/z1ftcdy.png)
 
 ## Authors
 
-👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 **Ruben Paz Chuspe**
 
-👤 **Author2**
+- Github: [@rubenpazch](https://github.com/rubenpazch)
+- Linkedin: [rubenpch](https://www.linkedin.com/in/rubenpch/)
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 **Isaac Gonzalez**
 
-## 🤝 Contributing
+- Github: [@idgm5](https://github.com/idgm5)
+- Twitter: [@idgm5](https://twitter.com/idgm5)
+- Linkedin: [Isaac Gonzalez](https://www.linkedin.com/in/isaacmunguia)
+
+
+## Contributing
+
+This is an education project as a part of the Microverse so contributing is not accepted.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues](https://github.com/enelesmai/enumerable-methods/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgements
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
++ [Github](http://github.com/).
++ [The Odin Project](theodinproject.com/).
 
-## 📝 License
+## License
 
 This project is [MIT](lic.url) licensed.
